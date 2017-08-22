@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>欢迎！</title>
+    {{> loginRegisterStyle }}
+</head>
+
+<body>
+	<form method="POST" action="/loginregister">
+		<div class="username_div">用户名:</div><input type="text" name="username" class="username"> <br/>
+		<div class="password_div">密  码:</div><input type="password" name="password" class="password"> <br/>
+		<input type="submit" value="注册" class="login">
+	</form>
+</body>
+</html>
